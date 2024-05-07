@@ -1,5 +1,5 @@
-var Test = artifacts.require("./neondrift.sol");
-var Migrations = artifacts.require("./neondrift.sol");
+var Test = artifacts.require("./NeonDrift.sol");
+var Migrations = artifacts.require("./Migrations.sol");
 
 module.exports = function(deployer) {
     deployer.deploy(Test);
